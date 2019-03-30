@@ -1,3 +1,3 @@
 # Auto Configure
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-top.wanmudong.apishow.config.ApiDocAutoConfiguration
+top.wanmudong.apishow.config.ApiShowAutoConfiguration
