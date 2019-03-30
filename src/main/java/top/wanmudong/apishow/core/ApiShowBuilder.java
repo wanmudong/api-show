@@ -463,7 +463,7 @@ public class ApiShowBuilder {
      */
     private Document builderApiDoc(ApiDoc apiDoc, Class<?> apiDocClass, ApiShowProperties properties) {
 
-        String docName = apiDocClass.getName();
+        String docName = apiDoc.name();
 
         Document document = new Document();
 
