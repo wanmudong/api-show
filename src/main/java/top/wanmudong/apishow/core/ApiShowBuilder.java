@@ -202,7 +202,7 @@ public class ApiShowBuilder {
                 apiParamDefinition.setDescription(apiParam.description());
                 apiParamDefinition.setExample(apiParam.example());
                 apiParamDefinition.setRequired(apiParam.required() ? "是" : "否");
-                apiParamDefinition.setRequired(apiParam.dataType().getValue());
+                apiParamDefinition.setType(apiParam.dataType().getValue());
                 apiParamDefinition.setDefaultValue(apiParam.defaultValue());
 
                 apiParamDefinitionsList.add(apiParamDefinition);
